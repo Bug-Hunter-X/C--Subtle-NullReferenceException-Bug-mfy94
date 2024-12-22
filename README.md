@@ -1,0 +1,3 @@
+# C# Subtle NullReferenceException Bug
+
+This repository demonstrates a subtle bug in C# that can lead to `NullReferenceException` errors. The bug arises from assigning `null` to an object instance after accessing its property.  The subsequent attempt to access the same property will throw the exception, even though the property was accessed successfully before the assignment.  The solution focuses on avoiding the direct assignment of null and instead utilizing a more controlled approach such as a null check or a more robust object handling strategy. 
